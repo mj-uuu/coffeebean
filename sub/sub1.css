@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+/***RESET**********************************************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    /*16px*/
+    font-weight: normal;
+    /*400*/
+}
+
+/***common.css*****************************************************/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*안쪽에서 컨텐츠 너비를 잡아주는 공통 클래스*/
+.inner {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.sec-tit {
+    font-size: 28px;
+    color: rgb(207, 102, 26);
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+*/
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/***HEADER********************************************/
+header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+}
+
+header .lnb {
+    width: 100%;
+    background-color: lightgray;
+    height: 40px;
+    line-height: 40px
+}
+
+header .lnb ul {
+    float: right;
+}
+
+header .lnb ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+header .lnb ul li:last-child {
+    margin-right: 0;
+    width: 60px;
+    /*text-indent: -9999px;*/
+    font-size: 0;
+    /*background-color: rgb(47,28,17);*/
+    background: rgb(47, 28, 17) url(img/ico_user_info_line.png) no-repeat center;
+}
+
+header .lnb ul li a {
+    color: #333;
+    display: block;
+}
+
+header .lnb ul li a:hover {
+    color: rgb(47, 28, 17);
+    text-decoration: underline;
+}
+
+/*header > .inner {}*/
+
+header .header-bottom {
+    height: 100px;
+}
+
+header .header-bottom h1.logo {
+    height: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    float: left;
+}
+
+header .header-bottom h1.logo a {
+    display: block;
+}
+
+header .header-bottom h1.logo a img {
+    height: 70px;
+    display: block;
+}
+
+header .header-bottom nav {
+    float: left;
+    margin-left: 100px;
+}
+
+nav ul {}
+
+nav ul li {
+    float: left;
+    line-height: 100px;
+    margin: 0 30px;
+    /*text-transform: uppercase;*/
+
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-family: Arial;
+    color: rgb(47, 28, 17);
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    color: rgb(207, 102, 26);
+}
+
+header .inner form {
+    float: right;
+}
+
+header .inner form .searchbox {
+    margin-top: 35px;
+}
+
+header form .searchbox input {
+    height: 25px;
+}
+
+/***MAIN********************************************************/
+
+.sub-bar {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(124, 81, 161);
+    margin-top: 141px;
+}
+
+.sub-bar ul {}
+
+.sub-bar ul a {
+    color: #fff;
+    line-height: 30px;
+}
+
+main {
+    width: 100%;
+    height: 540px;
+    background: url(img/bg_coffeebean-korea_banner01.jpg) no-repeat center /cover;
+}
+
+main p {
+    display: none;
+}
+
+section .simply-bottom {
+
+    border-bottom: 1px solid #333;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+section .simply-bottom .img-box {
+    background: url(img/bg_plus_icon.gif) no-repeat;
+    background-position: right;
+    float: left;
+    width: 25%;
+}
+
+section .simply-bottom .img-box img {
+    display: block;
+    margin-left: 80px;
+}
+
+.simply-bottom .img-box p {
+    text-align: center;
+}
+
+.simply-bottom .img-box p .name {
+    color: rgb(124, 81, 161);
+    font-weight: 600;
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 50px;
+}
+
+.simply-bottom .img-box p .con {
+    line-height: 22px;
+    /*outline: 2px solid #333;*/
+}
+
+.simply-bottom .img-box p .accent,
+br {
+    color: rgb(124, 81, 161);
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    font-size: 14px;
+    /*outline: 2px solid #333;*/
+}
+
+section .coffee-tea {
+    width: 100%;
+}
+
+section .coffee-tea p {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+section .coffee-tea > .sec-tit {
+    margin-top: 50px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+section .coffee-tea .specialty {
+    width: 100%;
+}
+
+section .coffee-tea .specialty a {
+    display: block;
+}

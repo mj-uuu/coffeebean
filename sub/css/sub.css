@@ -1,0 +1,130 @@
+/***sub .css**************************************/
+@charset "utf-8";
+
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+.location {
+    background-color: rgb(124, 81, 161);
+    margin-top: 141px;
+    height: 30px;
+    width: 100%;
+}
+
+.location ul {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.location ul li {
+    float: left;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.location ul li a {
+    color: #fff;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+main {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+main img {
+    width: 100%;
+}
+
+section {
+    
+}
+
+section .value {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #333;
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+section .value ul {}
+
+section .value ul li {
+    float: left;
+    width: 25%;
+    /*outline: 1px solid blue;*/
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+    background: url(../img/bg_plus_icon.gif) no-repeat right;
+}
+
+
+section .value ul li img {}
+
+section .value ul li dl {
+    
+}
+
+section .value ul li dl dt {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    color: rgb(124, 81, 161);
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+section .value ul li dl dd {
+    display: block;
+    line-height: 22px;
+}
+
+section .value ul li dl .accent {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(124, 81, 161);
+    text-transform: uppercase;
+}
+
+section .specialty {
+    margin-top: 50px;
+}
+section .specialty .des {
+    text-align: center;
+    line-height: 30px;
+    width: 1280px;
+    margin: 0 auto;
+}
+section .specialty .des p:last-child {
+    margin: 20px 0 50px;
+    color: rgb(207,102,26);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 24px;
+}
+
+section .specialty .banner {
+    width: 100%;
+}
+
+section .specialty .banner img {
+    width: 100%;
+}
+
+section .coffee {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
